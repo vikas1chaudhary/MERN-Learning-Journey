@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h3>PERSONAL REGISTRATION FORM</h3>
+      <br /><br /><br />
+
+      <form action="student">
+        <fieldset >
+          <label for="name">Name</label> <br />
+          <input type="text" required placeholder="enter yout full name" / >
+          <br /><br />
+
+          <label for="email">Enter your email</label> <br />
+          <input type="email" name="email" id="email" placeholder="abc@email.com" /> <br /><br />
+
+          <label for="phoneno">Enter your Phone number</label> <br />
+          <input
+            type="tel"
+            name="phoneno"
+            id="phoneno"
+            required
+            placeholder="+91 XXXXX XXXXX"
+            maxlength="13"
+            minlength="13"
+          />
+          <br />
+          <br />
+
+          <label for="skills">Skills</label> <br />
+          <input type="checkbox" name="skills" id="skills" /> HTML
+          <input type="checkbox" name="skills" id="skills" /> CSS
+          <input type="checkbox" name="skills" id="skills" /> JAVASCRIPT
+          <input type="checkbox" name="skills" id="skills" /> REACT.JS
+          <input type="checkbox" name="skills" id="skills" /> FIREBASE
+
+          <br /><br />
+
+          <label for="password">Password</label> <br>
+          <input type="password" name="" id="password">
+          <br><br>
+
+          <label for="resume">Upload your Resume</label> <br>
+          <input type="file" name="resume" id="resume" required>
+          <br><br>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </fieldset>
+      </form>
+
+</body>
+</html>

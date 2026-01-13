@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+header nav {
+  padding: 3%;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+header nav a {
+  color: #000;
+}
+
+header {
+  background-color: aquamarine;
+}
+main {
+  flex:1;
+}
+footer {
+  padding: 2%;
+  background-color: black;
+  color: #fff;
+  justify-content: center;
+  font-weight: 400;
+  font-style: italic;
+}

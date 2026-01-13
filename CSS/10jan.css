@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding: 2%;
+    background-color: black;
+    
+    
+}
+header h3{
+    color:aqua;
+    
+}
+header nav{
+    display: flex;
+    gap: 25%;
+    align-items: center;
+    
+}
+header nav a:hover{
+    color: aqua;
+    scale: 5px;
+}
+header input {
+    width: 20%;
+    height: 6vh;
+    color: rgb(255, 255, 255);
+    border-color: aqua;
+    padding-left:2%;
+    padding-right:2%;
+    
+}
+header input:focus{
+    outline: none;
+    background-color: rgba(0, 255, 255, 0.082);
+}
+header a{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+main{
+    display: flex;
+    text-align:start;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    background-image: url("https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg");
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgb(225, 255, 0);
+
+}
+header button{
+    border-color:aqua;
+    background-color: transparent;
+    border-radius: 30%;
+    padding: 3% 8%;
+    color: white;
+    
+}
+.btnn{
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+}
+
+
+.loginform{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 3px solid aqua;
+    padding: 5%;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+.loginform button{
+    padding: 8% 20%;
+    color: aqua;
+    background-color: black;
+    border: 2px solid aqua;
+    border-radius: 40px;
+}
+.loginform input{
+    color: aqua;
+    background-color: black;
+    padding: 5%;
+    border: 2px solid aqua;
+    border-radius: 20px;
+
+}
+.loginform label{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+
+}
+footer{
+    background-color: black;
+    
+    color: aliceblue;
+    text-align: center;
+    
+}
+footer h3{
+    text-align: center;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+    align-items: center;
+    padding: 7px;
+
+    
+}
+footer a:hover{
+    color: aqua;
+    background-color: rgba(255, 255, 255, 0.168);
+    border-radius: 10px  10px  10px 10px;
+}
+.copy{
+    margin-top: 3vw;
+}
+.link{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Course , .Services , .Partners{
+    display: flex;
+    flex-direction: column;
+    gap: .5vw;
+}
+

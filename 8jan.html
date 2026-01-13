@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- DIFFERENT INPUT TYPE -->
+    <h3>Submit your Application Form</h3>
+    <form action="practice">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          required
+          placeholder="enter your first name"
+        />
+        <br />
+        <br />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          required
+          placeholder="enter your last name"
+        />
+        <br />
+        <br />
+
+        <label for="age">Date of Birth</label>
+        <input type="date" name="" id="age" /> <br />
+        <br />
+
+        <label for="number">Phone number</label>
+        <input
+          type="number"
+          name=""
+          id="number"
+          required
+          placeholder="+910000000000"
+        />
+        <br />
+        <br />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name=""
+          id="email"
+          required
+          placeholder="abc@gmail.com"
+        />
+        <br />
+        <br />
+
+        <label for="resume">Upload your Resume</label> <br />
+        <input type="file" name="" id="resume" /> <br />
+        <br />
+
+        <label for="github">Your Github link</label>
+        <input type="url" name="" id="github" /> <br /><br />
+
+        <label for="gender">Your Gender</label>
+        <input type="radio" name="gender" id="gender" />Male
+        <input type="radio" name="gender" id="gender" />Female
+        <input type="radio" name="gender" id="gender" />others
+
+        <label for="role">Role you are applying for</label>
+        <input type="radio" name="role" id="role" />Software Developer Intern
+        <input type="radio" name="role" id="role" />Graphic Degisener Intern
+        <input type="radio" name="role" id="role" />Cybersecurity Intern
+        <input type="radio" name="role" id="role" />Digital Marketing Intern
+      </fieldset>
+
+      <br /><br /><br /><br /><br />
+
+      <!--MY REgistration Form-->
+      <h3>PERSONAL REGISTRATION FORM</h3>
+      <br /><br /><br />
+
+      <form action="student">
+        <fieldset >
+          <label for="name">Name</label> <br />
+          <input type="text" required placeholder="enter yout full name" />
+          <br /><br />
+
+          <label for="email">Enter your email</label> <br />
+          <input type="email" name="email" id="email" placeholder="abc@email.com" /> <br /><br />
+
+          <label for="phoneno">Enter your Phone number</label> <br />
+          <input
+            type="tel"
+            name="phoneno"
+            id="phoneno"
+            required
+            placeholder="+91 XXXXX XXXXX"
+            maxlength="13"
+            minlength="13"
+          />
+          <br />
+          <br />
+
+          <label for="skills">Skills</label> <br />
+          <input type="checkbox" name="skills" id="skills" /> HTML
+          <input type="checkbox" name="skills" id="skills" /> CSS
+          <input type="checkbox" name="skills" id="skills" /> JAVASCRIPT
+          <input type="checkbox" name="skills" id="skills" /> REACT.JS
+          <input type="checkbox" name="skills" id="skills" /> FIREBASE
+
+          <br /><br />
+
+          <label for="sub">Click to sumbit</label>
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </form>
+  </body>
+</html>
