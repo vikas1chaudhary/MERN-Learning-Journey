@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.icon {
+    height: 15vh;
+    width: 15vh;
+}
+.icon img {
+    height: 100%;
+    width: 100%;
+}
+header{
+    
+    padding:5vh ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(154, 153, 151);
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10vh;
+    align-items: center;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 2vh;
+    font-weight: 600;
+    padding: 16px;
+    border-radius: 20px;
+}
+nav a:hover{
+    color: white;
+    background-color: rgba(245, 245, 245, 0.206);
+    transition: 0.2s;
+    
+}
+form{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+form input{
+    height: 8vh;
+    width: 35vh;
+    padding: 15px;
+    outline: none;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgba(19, 19, 19, 0.18);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+form input::placeholder{
+    color: aliceblue;
+    
+}
+form input:hover{
+    background-color: rgba(255, 255, 255, 0.205);
+    transition: 0.2s;
+    
+}
+form input:focus{
+    background-color: rgba(255, 255, 255, 0.274);
+    
+}
+form img{
+    height: 4vh;
+    width:4vh;
+    cursor: pointer;
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+}
+
+main{
+    background-image: url('../Tourassets/15JAN/blackrear.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+.cards1,.cards2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    
+}
+.card{
+    height: 50vh;
+    width: 35vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+    
+    
+}
+.card img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px 15px 0 0;
+}
+.cardtext{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    background-color: rgba(213, 207, 207, 0.193);
+    border-radius: 0 0 15px 15px;
+    margin-top: 5px;
+    
+}
+.cardtext:hover{
+    background-color: rgba(0, 0, 0, 0.709);
+    transition: 0.2s;
+    
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding-top: 40px;
+}
+.fotmain{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footercon1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.footercon1 h3{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.footercon1 a{
+    text-decoration: none;
+    color: gray;
+    margin: 1px 0;
+    padding: 10px;
+    
+    border-radius: 30px;
+    font-size: 19px;
+}
+.footercon1 a:hover{
+    color: white;
+    background-color: rgba(245, 245, 245, 0.206);
+    transition: 0.2s;
+}
+footer p{
+    color: gray;
+    margin: 30px 0;
+    text-align: center;
+    font-size: 18px;

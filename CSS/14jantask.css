@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html, body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    justify-content: center;
+}
+header .logo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.logo span{
+    color: lightseagreen;
+}
+header nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+header nav a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: darkslategray;
+}
+header nav form button{
+    height: 30px;
+    width: 100px;
+    border-color: orange;
+    color: orange;
+    background-color: transparent;
+
+}
+header nav a:hover{
+    color:orange;
+}
+header nav form button:hover{
+    color: white;
+    background-color: orange;
+}
+main{
+    flex: 1;
+    background-image: url('../Tourassets/pexels-gdtography-277628-2368163.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+}
+main .card{
+    background: white;
+    padding: 30px;
+    max-width: 420px;
+}
+main .card h1{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+main .card p{
+    font-size: 19px;
+    color: darkgray;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+main .card form button{
+    margin-right: 10px;
+    padding: 10px 18px;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+main .card button:hover{
+    color: orange;
+    background-color: white;
+}
+footer{
+    text-align: center;
+    padding: 60px;
+}
+footer h1{
+    font-family: jokerman, cursive;
+}
+footer .title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+footer .smalltitle{
+    font-size: 17px;
+    color: darkgray;
+    line-height: 1.7;
+}
